@@ -1,3 +1,4 @@
+"use strict"
 // 文字入力チェック
 function check1() {
   var text = document.form1.input1.value;

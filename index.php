@@ -13,7 +13,7 @@ require_once('library/send.php');
   </head>
   <body>
     <!-- オープニングモーダル -->
-    <div class="opening">
+    <div class="opening" id="opening-modal">
       <div class="opening-container">
         <h1 id="opening-1">ここは海の底、</h1>
         <h1 id="opening-2">あなたの好きなことをつぶやけます・・・</h1>
@@ -54,7 +54,7 @@ require_once('library/send.php');
           <p>転職活動用に作った自主制作。</p>
           <p>使用言語 HTML CCS JavaScript JQuery PHP SQL</p>
           <p>オープンソース、ソースコードはGitHubで公開しています。</p>
-          <a href="https://github.com/stks56/Deepsea">GitHub</a>
+          <a href="https://github.com/stks56/DeepseaRepository">https://github.com/stks56/DeepseaRepository</a>
         </div>
       </div>
     </div>
@@ -81,7 +81,8 @@ require_once('library/send.php');
       <?php endforeach; ?>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="/script/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
     <script src="/script/script.js"></script>
+    <script src="/script/jquery.js"></script>
   </body>
 </html>
