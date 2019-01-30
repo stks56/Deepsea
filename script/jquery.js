@@ -1,5 +1,9 @@
-"use strict"
 $(function() {
+//オープニング一度きり
+if($.cookie('access') == undefined) {
+    $.cookie('access', 'on');
+    $('#opening-modal').show();
+}
 // オープニングモーダル
   $('#opening-1').fadeIn(2000);
   $('#opening-2').delay(2500).fadeIn(2000);
@@ -19,7 +23,5 @@ $(function() {
   $('.close-modal').click(function(){
     $('.modal').hide();
   });
-
-
 
 });
