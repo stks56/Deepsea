@@ -54,7 +54,7 @@ require_once('library/send.php');
           <p>転職活動用に作った自主制作。</p>
           <p>使用言語 HTML CCS JavaScript JQuery PHP SQL</p>
           <p>オープンソース、ソースコードはGitHubで公開しています。</p>
-          <a href="https://github.com/stks56/DeepseaRepository">https://github.com/stks56/DeepseaRepository</a>
+          <a href="https://github.com/stks56/Deepsea">https://github.com/stks56/Deepsea</a>
         </div>
       </div>
     </div>
